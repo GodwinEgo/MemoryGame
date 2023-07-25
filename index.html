@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <h1>Memory Game</h1>
+    <div class="grid">
+        <!--ADD A NUMBER OF CARDS HERE (EVEN NUMBER)-->
+        <div class="card" data-card="1">
+            <div class="card-face front"></div>
+            <div class="card-face back"></div>
+        </div>
+        <div class="card" data-card="2">
+            <div class="card-face front"></div>
+            <div class="card-face back"></div>
+        </div>
+        <div class="card" data-card="3">
+            <div class="card-face front"></div>
+            <div class="card-face back"></div>
+        </div>
+        <!--ADD MORE CARDS-->
+    </div>
+    <div class="score">Score : <span id="score">0</span></div>
+    <div class="timer">Time : <span id="timer">0</span></div>
+
+    <button id="reset-button">Reset Game</button>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
